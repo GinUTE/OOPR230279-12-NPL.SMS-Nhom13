@@ -1,0 +1,14 @@
+﻿USE SMS
+SELECT * FROM Customer
+
+USE SMS
+SELECT * FROM Employee
+
+USE SMS
+SELECT * FROM LineItem
+
+USE SMS
+SELECT * FROM Orders
+
+USE SMS
+SELECT * FROM Product
