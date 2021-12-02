@@ -14,4 +14,4 @@ Individuals' tasks:
 4. Huỳnh Nguyễn Tín - Function 1, 2
 5. Trần Minh Đức - Function 6, 7
 
-Disclaimer: All group members contributed to the making of this project, the listed-above individuals' tasks does not provide full insight on the roles of each member, but rather gives a summary of how project's requirements are assigned by team leader at the beginning.
+Disclaimer: All group members contributed to the making of this project, the listed-above individuals' tasks does not provide full insight on the roles of each member, but rather gives a summary of how project's requirements are assigned by voted team leader at the beginning.
