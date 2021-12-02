@@ -20,7 +20,8 @@ namespace R2S.Training.Main
             do
             {
                 Console.Write
-                ("\n[1]. Get all customers\n" +
+                ("\n==================================\n" +
+                "[1]. Get all customers\n" +
                 "[2]. Get all orders by customer ID\n" +
                 "[3]. Get all items by order ID\n" +
                 "[4]. Compute order total\n" +
@@ -31,7 +32,7 @@ namespace R2S.Training.Main
                 "[9]. Add lineitem\n" +
                 "[10]. Update order total\n" +
                 "[11]. Exit\n" +
-                "========================\n" +
+                "==================================\n" +
                 "Your option: ");
                 option = InputInt();
 
@@ -136,7 +137,7 @@ namespace R2S.Training.Main
             }
         }
 
-        //Func1
+        //Func 1
         static void GetAllCustomers()
         {
             List<Customer> customers = CustomerDAO.Instance.GetAllCustomer();
@@ -176,7 +177,7 @@ namespace R2S.Training.Main
             }
         }
 
-        //Func3
+        //Func 3
         static void GetAllItemsByOrderId()
         {
             Console.Write("Enter order ID: ");
@@ -198,7 +199,7 @@ namespace R2S.Training.Main
             }
         }
 
-        //Func4
+        //Func 4
         static void ComputeOrderTotal()
         {
             int order_id;
@@ -216,7 +217,7 @@ namespace R2S.Training.Main
             Console.WriteLine("Order total: " + orderTotal);
         }
         
-        //Func5
+        //Func 5
         static void AddCustomer()
         {
             Customer customer = new Customer();
@@ -229,7 +230,7 @@ namespace R2S.Training.Main
             else Console.WriteLine("Add failed!");
         }
 
-        //Func6
+        //Func 6
         static void DeleteCustomer()
         {
             int customer_id;
@@ -249,7 +250,7 @@ namespace R2S.Training.Main
             else Console.WriteLine("Delete failed!");
         }
 
-        //Func7
+        //Func 7
         static void UpdateCustomer()
         {
             int customer_id;
@@ -274,7 +275,7 @@ namespace R2S.Training.Main
             else Console.WriteLine("Update failed!");
         }
 
-        //Func8
+        //Func 8
         static void AddOrder()
         {
             Order order = new Order
@@ -294,7 +295,7 @@ namespace R2S.Training.Main
             else Console.WriteLine("Add failed!");
         }
 
-        //Func9
+        //Func 9
         static void AddLineItem()
         {
             LineItem item = new LineItem();
@@ -336,7 +337,7 @@ namespace R2S.Training.Main
             else Console.WriteLine("Add failed!");
         }
 
-        //Func10
+        //Func 10
         static void UpdateOrderTotal()
         {
             int order_id;
