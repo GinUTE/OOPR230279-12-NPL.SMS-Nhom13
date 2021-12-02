@@ -15,3 +15,5 @@ Individuals' tasks:
 5. Trần Minh Đức - Function 6, 7
 
 Disclaimer: All group members contributed to the making of this project, the listed-above individuals' tasks does not provide full insight on the roles of each member, but rather gives a summary of how project's requirements are assigned by voted team leader at the beginning.
+
+P/S: This project includes snippets of SQL code to creat database, tables, tables initialization, stored procedures and defined function on top of the given namespaces and classes requirements.
