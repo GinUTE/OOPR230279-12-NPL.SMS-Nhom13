@@ -7,6 +7,6 @@ Members of Group 13:
 4. Huỳnh Nguyễn Tín - 20133094 - Functions 1, 2
 5. Trần Minh Đức - 20133037 - Functions 6, 7
 
-Disclaimer: All group members contributed to the making of this project, the listed-above individuals' tasks does not provide full insight on the roles of each member, but rather gives a summary of how the project's requirements are assigned by voted team leader at the beginning.
+Disclaimer: All group members contributed to the making of this project, the listed-above individuals' tasks do not provide full insight on the roles of each member, but rather give a summary of how the project's requirements are assigned by voted team leader at the beginning.
 
 P/S: This project includes snippets of SQL code to creat database, tables, tables initialization, stored procedures and defined function on top of the given namespaces and classes requirements.
